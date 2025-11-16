@@ -13,6 +13,16 @@ export class Loginpage{
         await this.loginButton.click();
 
 
+
         
     }
+    const ERROR_MESSAGES: Record<string, string> = {
+  invalid_username: "Invalid username or password.",
+  invalid_password: "Invalid username or password.",
+  blank_username: "Username is required",
+  blank_password: "Password is required",
+  blank_fields: "Username and password are required",
+  locked_account: "Account locked or disabled",
+};
+
 }
