@@ -25,4 +25,16 @@ export class Loginpage{
   locked_account: "Account locked or disabled",
 };
 
+import { test } from '@playwright/test';
+import { LoginPage } from '../pages/LoginPage';
+
+test('Login test', async ({ page }) => {
+  await page.goto('https://example.com/login');
+
+  const login = new LoginPage(page);
+
+  await login.login('admin', 'secret123');
+});
+
+
 }
