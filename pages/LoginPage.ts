@@ -24,17 +24,20 @@ export class Loginpage{
   blank_fields: "Username and password are required",
   locked_account: "Account locked or disabled",
 };
+    
 
-import { test } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
 
-test('Login test', async ({ page }) => {
-  await page.goto('https://example.com/login');
 
-  const login = new LoginPage(page);
+// import { test } from '@playwright/test';
+// import { LoginPage } from '../pages/LoginPage';
 
-  await login.login('admin', 'secret123');
-});
+// test('Login test', async ({ page }) => {
+//   await page.goto('https://example.com/login');
+
+//   const login = new LoginPage(page);
+
+//   await login.login('admin', 'secret123');
+// });
 
 
 }
