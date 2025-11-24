@@ -36,8 +36,8 @@ export class Loginpage{
 
 //   const login = new LoginPage(page);
 
-//   await login.login('admin', 'secret123');
-// });
+   await login.login('admin', 'secret123');
+ });
 
 
 }
