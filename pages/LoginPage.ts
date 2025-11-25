@@ -31,13 +31,13 @@ export class Loginpage{
 // import { test } from '@playwright/test';
 //import { LoginPage } from '../pages/LoginPage';
 
-test('Login test', async ({ page }) => {
-  await page.goto('https://example.com/login');
+//test('Login test', async ({ page }) => {
+  //await page.goto('https://example.com/login');
 
-  const login = new LoginPage(page);
+  //const login = new LoginPage(page);
 
-   await login.login('admin', 'secret123');
- });
+   //await login.login('admin', 'secret123');
+ //});
 
 
-}
+//}
